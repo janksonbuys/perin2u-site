@@ -1,0 +1,75 @@
+{
+  "partNumbers": 1994,
+  "partNumbersInUse": 1948,
+  "applications": 10853,
+  "vehicleFitments": 30572,
+  "makes": 57,
+  "oeNumbers": 4752,
+  "crossRefs": 14085,
+  "yearFrom": 1979,
+  "yearTo": 2020,
+  "roles": [
+    [
+      "在用",
+      1948
+    ],
+    [
+      "在用（本轮退出重叠键）",
+      46
+    ],
+    [
+      "全量退役（转互换号）",
+      6
+    ]
+  ],
+  "topMakes": [
+    [
+      "Chevrolet",
+      1080
+    ],
+    [
+      "Dodge",
+      986
+    ],
+    [
+      "Ford",
+      813
+    ],
+    [
+      "Toyota",
+      580
+    ],
+    [
+      "Mercedes-Benz",
+      577
+    ],
+    [
+      "BMW",
+      545
+    ],
+    [
+      "GMC",
+      542
+    ],
+    [
+      "Nissan",
+      470
+    ],
+    [
+      "Volkswagen",
+      463
+    ],
+    [
+      "Audi",
+      417
+    ],
+    [
+      "Honda",
+      331
+    ],
+    [
+      "Mitsubishi",
+      317
+    ]
+  ]
+}
