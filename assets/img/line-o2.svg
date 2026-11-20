@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="520" height="380" role="img" aria-label="Oxygen sensor construction drawing">
+  <rect width="520" height="380" fill="#F5F1E8"/>
+  <g stroke="#D4CDB0" stroke-width="1">
+    <line x1="40" y1="40" x2="480" y2="40"/><line x1="40" y1="340" x2="480" y2="340"/>
+    <line x1="40" y1="40" x2="40" y2="340"/><line x1="480" y1="40" x2="480" y2="340"/>
+  </g>
+
+  <!-- sensor body -->
+  <g transform="translate(150,70)">
+    <!-- connector -->
+    <rect x="0" y="52" width="46" height="34" rx="2" fill="none" stroke="#1A2332" stroke-width="1.6"/>
+    <path d="M6 59h34M6 69h34M6 79h34" stroke="#C89B50" stroke-width="1.2"/>
+    <!-- cable -->
+    <path d="M46 69h34" stroke="#1A2332" stroke-width="2.4"/>
+    <path d="M80 62c14 0 18 7 18 14" fill="none" stroke="#1A2332" stroke-width="2.4"/>
+    <!-- boot -->
+    <path d="M96 76h16l8 12h-8" fill="none" stroke="#1A2332" stroke-width="1.6"/>
+    <!-- shield/crimp -->
+    <rect x="112" y="66" width="26" height="26" rx="1" fill="none" stroke="#1A2332" stroke-width="1.6"/>
+    <!-- hex -->
+    <path d="M138 60h30l8 13v16l-8 13h-30z" fill="none" stroke="#1A2332" stroke-width="1.6"/>
+    <path d="M146 60v39M154 60v39M162 60v39" stroke="#D4CDB0" stroke-width="1"/>
+    <!-- thread -->
+    <rect x="176" y="66" width="86" height="26" fill="none" stroke="#1A2332" stroke-width="1.6"/>
+    <path d="M182 66l-6 26M194 66l-6 26M206 66l-6 26M218 66l-6 26M230 66l-6 26M242 66l-6 26M254 66l-6 26" stroke="#C89B50" stroke-width="1.1"/>
+    <!-- tip -->
+    <path d="M262 66h16l8 13-8 13h-16z" fill="none" stroke="#1A2332" stroke-width="1.6"/>
+    <path d="M270 72h10M270 79h10M270 86h10" stroke="#C89B50" stroke-width="1.1"/>
+  </g>
+
+  <!-- callouts -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" fill="#6A7280" letter-spacing="1.4">
+    <g stroke="#C89B50" stroke-width="1" fill="none">
+      <path d="M150 178v34H92"/>
+      <path d="M300 176v36h44"/>
+      <path d="M418 165v47h-58"/>
+    </g>
+    <text x="60" y="212" text-anchor="start">CONNECTOR KEYING</text>
+    <text x="352" y="212" text-anchor="start">HEATER RESISTANCE</text>
+    <text x="420" y="156" text-anchor="middle">SENSING ELEMENT</text>
+  </g>
+
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#1A2332">
+    <text x="40" y="292" font-size="11" letter-spacing="3" fill="#C89B50">OXYGEN · UPSTREAM / DOWNSTREAM</text>
+    <text x="40" y="312" font-size="9.5" letter-spacing="1.2" fill="#8A92A1">NARROWBAND LAMBDA · WIDEBAND AFR · PLANAR / THIMBLE</text>
+  </g>
+</svg>
